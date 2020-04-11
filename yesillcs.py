@@ -19,4 +19,4 @@ def page_logs():
     return render_template('logs.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
