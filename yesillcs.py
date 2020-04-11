@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def page_index():
-    return render_template('index.html', answer="yes")
+    return render_template('index.html')
 
 @app.route("/notifications")
 def page_notifications():
@@ -17,10 +17,6 @@ def page_login():
 @app.route("/logs")
 def page_logs():
     return render_template('logs.html')
-
-@app.route("/logs/<string:id>")
-def page_log_id(id):
-    return "log: " + id
 
 if __name__ == "__main__":
     app.run(debug=True)
