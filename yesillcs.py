@@ -18,4 +18,5 @@ def page_login():
 def page_logs():
     return render_template('logs.html')
 
-app.run()
+if __name__ == "__main__":
+    app.run()
