@@ -1,1 +1,1 @@
-web: gunicorn yesillcs:app
+web:gunicorn yesillcs:app
