@@ -90,7 +90,7 @@ pycosat==0.6.3
 pycparser==2.20
 PyDispatcher==2.0.5
 PyGetWindow==0.0.8
-Pygments==2.6.1
+Pygments==2.7.4
 PyHamcrest==1.9.0
 PyInstaller==3.5
 PyMsgBox==1.0.7
